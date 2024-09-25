@@ -5,6 +5,11 @@
     margin: 0;
     padding: 0;
   }
+
+  input[type="radio"] {
+    width: 25px; 
+    height: 25px; 
+  }
   
   /* # UTILS */
   
@@ -12,6 +17,13 @@
     margin: 0 auto;
     padding: 0 5px;
     width: 1200px;
+    max-width: 100%;
+  }
+
+  .container2 {
+    margin: 0 auto;
+    padding: 0 5px;
+    width: 1000px;
     max-width: 100%;
   }
 
@@ -39,14 +51,9 @@
       margin: 0 20px;
     }
 
-    .button{
-      color: white;
-      background-color: #0061FF;
-      border: 1px solid #0061FF;
+    .start-container>.button{
       height: 35px;
       width: 70px;
-      font-family: sans-serif;
-      font-size: 17px;
     }
 
     /* # Main */
@@ -66,7 +73,7 @@
       padding-top: 100px;
     }
 
-    .title{
+    .hero>.title{
       font-size: 90px;
     }
 
@@ -85,9 +92,14 @@
       height: 475px;
     }
 
-    .info-container .button{
+    .button{
       width: 230px;
       height: 45px;
+      color: white;
+      background-color: #0061FF;
+      border: 1px solid #0061FF;
+      font-family: sans-serif;
+      font-size: 17px;
     }
 
     .hero-info-container>.button, .hero-info-container>.unsub{
@@ -99,4 +111,100 @@
     }
 
     /* # Business */
+    
+    .business-section{
+      background-color: bisque;
+      height: 1400px;
+    }
+
+    .business{
+      height: 100%;
+      padding-top: 200px;
+    }
+
+    .business>.title{
+      font-size: 43px;
+    }
+
+    .radio, .radio2{
+      vertical-align: middle;
       
+    }
+
+    .radio2{
+      margin-left: 60px;
+    }
+
+    .radio-button{
+      margin-top: 30px;
+    }
+
+    .plan-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 50px;
+    }
+
+    .plan{
+      width: 300px;
+      height: 950px;
+    }
+
+    .type, .plan{
+      border: 1px solid #DCDCDE;
+    }
+
+    .type{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      
+    }
+
+    .info-plan{
+      padding: 30px 30px;
+    }
+
+    .info-plan>.title{
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    .info-plan>.price, .info-plan>.recurrency{
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+
+    .list, .list2{
+      margin-top: 30px;
+      list-style: none;
+    }
+
+    li{
+      display: flex;
+      margin: 20px 0;
+    }
+    
+    .button-container{
+      margin-top: 70px;
+  
+    }
+
+    .button-container>button{
+      width: 100%;
+    }
+
+    .buy-now,.sub-title{
+      margin-top: 40px;
+    }
+
+    .info-plan>hr{
+      margin-top: 40px;
+      width: 50px;
+    }
+
+    .check{
+      color: #0061FF;
+    }
