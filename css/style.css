@@ -442,3 +442,27 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       font-size: 17px;
     }
+
+    /* # FAQ */
+
+    .faq-section{
+      height: 700px;
+    }
+
+    .faq{
+      padding-top: 50px;
+    }
+
+    .faq>.title{
+      font-size: 40px;
+    }
+
+    .faq p{
+      margin: 50px 0;
+    }
+
+    .faq>.info{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
